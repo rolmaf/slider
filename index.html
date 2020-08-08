@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="slideshow-container">
+        <div class="my-slides fade slide-1 active-slide">
+            <div class="numbers">1/4</div>
+            <img src="./img/fotografierende-1111597.jpg" alt="">
+            <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, hic.</div>
+        </div>
+        <div class="my-slides fade slide-2">
+            <div class="numbers">2/4</div>
+            <img src="./img/jeshootscom-442576.jpg" alt="">
+            <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, nesciunt.</div>
+        </div>
+        <div class="my-slides fade slide-3">
+            <div class="numbers">3/4</div>
+            <img src="./img/pixabay-459762.jpg" alt="">
+            <div class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, assumenda?</div>
+        </div>
+        <div class="my-slides fade slide-4">
+            <div class="numbers">4/4</div>
+            <img src="./img/soumil-kumar-735911.jpg" alt="">
+            <div class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, perferendis.</div>
+        </div>
+        
+        <div href="" class="previos" onclick="plusSlides(-1)">&#10094</div>
+        <div href="" class="next" onclick="plusSlides(1)">&#10095</div>
+    </div>
+    
+    <div class="dots" style="text-align: center;">
+        <span class="dot dot-1 active-dot" onclick="curentSlide(1)"></span>
+        <span class="dot dot-2" onclick="curentSlide(2)"></span>
+        <span class="dot dot-3" onclick="curentSlide(3)"></span>
+        <span class="dot dot-4" onclick="curentSlide(4)"></span>
+    </div>
+    
+    
+    <script src="main.js"></script>
+</body>
