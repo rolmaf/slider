@@ -35,8 +35,8 @@ img {
     width: auto;
     transform: translate(-50%, 0);
     padding: 16px;
-    color: #fff;
-    font-size: 20px;
+    color: lightcoral;
+    font-size: 40px;
     font-weight: bold;
     transition: 0.2s ease;
     border-radius: 5px;
@@ -69,7 +69,7 @@ img {
 }
 
 .numbers {
-    color: #ff1;
+    color: #8080ff;
     font-size: 50px;
     padding: 8px 13px;
     position: relative;
